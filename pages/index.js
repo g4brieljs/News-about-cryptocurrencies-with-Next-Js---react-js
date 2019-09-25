@@ -1,10 +1,12 @@
-import Navegacion from '../components/Navegacion';
+import MasterPage from '../components/MasterPage';
+
 
 const Index = () => (
-    <div>
-        <Navegacion />
-        <p>DESDE INICIO</p>
-    </div>
+    <MasterPage>
+        <div>
+            <p>DESDE INICIO</p>
+        </div>
+    </MasterPage>
 )
 
 export default Index;

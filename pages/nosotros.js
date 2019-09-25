@@ -1,10 +1,12 @@
-import Navegacion from '../components/Navegacion';
+import MasterPage from '../components/MasterPage';
 
 const Nosotros = () => (
-    <div>
-        <Navegacion />
-        <p>DESDE NOSOTROS</p>
-    </div>
+    <MasterPage>
+        {/* Todo lo que este acá dentro es el {props.children} de MasterPage */}
+        <div>
+            <p>DESDE NOSOTROS</p>
+        </div>
+    </MasterPage>
 )
 
 export default Nosotros;
