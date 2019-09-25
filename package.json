@@ -1,0 +1,18 @@
+{
+  "name": "next-project",
+  "version": "1.0.0",
+  "description": "project with nextjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "g4brieljs",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
