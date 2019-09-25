@@ -1,10 +1,10 @@
 import Navegacion from '../components/Navegacion';
 
-const Index = () => (
+const Nosotros = () => (
     <div>
         <Navegacion />
-        <p>DESDE INICIO</p>
+        <p>DESDE NOSOTROS</p>
     </div>
 )
 
-export default Index;
+export default Nosotros;
