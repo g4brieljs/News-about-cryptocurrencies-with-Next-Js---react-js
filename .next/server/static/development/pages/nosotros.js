@@ -147,13 +147,20 @@ const MasterPage = props => __jsx("div", {
     lineNumber: 9
   },
   __self: undefined
-}, "Bitcoin")), __jsx(_Navegacion__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, "AllBitcoin")), __jsx(_Navegacion__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}), props.children);
+}), __jsx("div", {
+  className: "container mt-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, props.children));
 
 /* harmony default export */ __webpack_exports__["default"] = (MasterPage);
 
