@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport MasterPage from '../components/MasterPage';\n\nvar Nosotros = function Nosotros() {\n  return __jsx(MasterPage, null, __jsx(\"div\", null, __jsx(\"p\", null, \"DESDE NOSOTROS\")));\n};\n\nexport default Nosotros;","map":null,"metadata":{},"sourceType":"module"}

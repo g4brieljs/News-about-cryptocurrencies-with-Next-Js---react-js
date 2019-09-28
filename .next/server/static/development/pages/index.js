@@ -325,7 +325,7 @@ const Noticia = props => {
   }
 
   return __jsx("div", {
-    className: "col-md-6 col-12 mb-4",
+    className: "col-md-4 col-12 mb-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -2285,7 +2285,7 @@ const Index = props => __jsx(_components_MasterPage__WEBPACK_IMPORTED_MODULE_1__
   },
   __self: undefined
 })), __jsx("div", {
-  className: "col-md-8",
+  className: "col-md-12",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18
@@ -2304,25 +2304,12 @@ const Index = props => __jsx(_components_MasterPage__WEBPACK_IMPORTED_MODULE_1__
     lineNumber: 20
   },
   __self: undefined
-})), __jsx("div", {
-  className: "col-md-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25
-  },
-  __self: undefined
-}, __jsx("h2", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 26
-  },
-  __self: undefined
-}, "Proximos eventos del Bitcoin"))));
+}))));
 
 Index.getInitialProps = async () => {
   try {
     const precio = await axios__WEBPACK_IMPORTED_MODULE_4___default.a.get('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC&tsyms=USD&api_key=f1edaeb4aa907915e6d2d70b828b1c4a12430b53e8c060cf649e6851fc90bd59');
-    const noticia = await axios__WEBPACK_IMPORTED_MODULE_4___default.a.get('https://newsapi.org/v2/everything?q=bitcoin&from=2019-08-27&sortBy=publishedAt&apiKey=6ec23f683b1e44178d29f1971708960b&language=es');
+    const noticia = await axios__WEBPACK_IMPORTED_MODULE_4___default.a.get('https://newsapi.org/v2/everything?q=bitcoin&from=2019-08-28&sortBy=publishedAt&apiKey=6ec23f683b1e44178d29f1971708960b');
     return {
       precios: precio.data,
       noticias: noticia.data

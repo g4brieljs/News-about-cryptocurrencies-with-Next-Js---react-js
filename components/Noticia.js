@@ -12,7 +12,7 @@ const Noticia = (props) => {
     }
 
     return ( 
-        <div className="col-md-6 col-12 mb-4">
+        <div className="col-md-4 col-12 mb-6">
             <div className="card">
                 <div className="card-image">
                     {imagen}
